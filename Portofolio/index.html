@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand fs-4 fw-bold" href="#">My Portofolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <section id="home" class="home container">
+    <div class="row d-flex align-items-center">
+     <div class="col-8">
+        <h3 class="fw-semibold">Hi! I am</h3>
+        <h3 class="fw-bold">Rafianto</h3>
+        <p>I am Software Engineer based in Indonesia</p>
+        <a class="btn" href="Images/potrait.png" download>Resume</a>
+     </div>  
+     <div class="potrait">
+         <img src="Images/2b47cf24-305c-4152-98bc-2551d779bfdf.jpeg" alt="potrait">
+    </div> 
+    </div>
+    <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
+      <a class="text-decoration-none" href="#about">More Info</a>
+          <img class="mt-2" src="Images/arrow.svg" alt="arrow icon">
+    </div>
+    </section>
+    <section id="about" class="about container">
+      <p> I specialize in building clean, responsive, and user-friendly web interfaces using modern technologies like HTML, CSS, JavaScript, and React. With a strong eye for detail and a focus on performance, I turn design ideas into accessible, efficient, and visually appealing digital experiences.
+
+        I’m passionate about writing clean code, optimizing UX, and crafting web products that not only work well but feel great to use. </p>
+      <div class="about-exp">
+        <div class="about-exp-item">
+        <div class="about-exp-item-header">
+          <div>
+            <h5>Sofware Engineer</h5>
+            <h6>Coding Studio – Full time </h6><p> (2021 - Present)</p>
+          </div>
+          <button class="btn button" onclick="toggleDetail(e vent)">More Info</button>
+        </div>
+        <p class="about-exp-item-detail"> As a Front-End Software Engineer at Coding Studio, I focus on building fast, responsive, and accessible web applications using React, JavaScript, and Tailwind CSS. I collaborate closely with design and back-end teams to translate product requirements into intuitive, high-quality user interfaces. My work emphasizes performance, scalability, and code maintainability—ensuring a seamless experience across all modern browsers and devices. I take ownership of features from planning to deployment, while continuously improving development workflows and adhering to industry best practices. <br><br>
+          <b>Key Responsibilities:</b><br>
+          • Develop and maintain web applications with React and Tailwind CSS.<br>
+          
+          • Translate UI/UX designs into interactive, pixel-perfect interfaces.<br>
+          
+          • Integrate RESTful APIs and ensure seamless front-end/back-end communication.<br>
+          
+          • Optimize site performance, responsiveness, and browser compatibility.<br>
+          
+          • Conduct code reviews and refactor legacy code to improve maintainability.<br> 
+          
+          • Collaborate in agile sprints, including planning, development, and deployment.<br>
+          
+          • Troubleshoot bugs and implement fixes in a timely and efficient manner.<br>
+          
+          • Maintain version control and workflow using Git and GitHub.
+          
+            
+        </p>
+      </div>
+      <div class="about-exp">
+        <div class="about-exp-item">
+        <div class="about-exp-item-header">
+          <div>
+            <h5>Web Developer (Freelance Project)</h5>
+            <h6>UMKM Lokal – Freelance</h6>
+            <p>(January 2021 – April 2021)</p>
+          </div>
+          <button class="btn button" onclick="toggleDetail(event)">More Info</button>
+        </div>
+        <p class="about-exp-item-detail">As a freelance Web Developer for local small business clients, I was responsible for designing and building custom websites tailored to each client’s business needs and brand identity. I handled projects end-to-end—from requirement gathering, design implementation, to deployment—ensuring each site was responsive, fast-loading, and accessible on various devices. Working independently, I balanced technical execution with clear client communication and deadline management, which helped strengthen my adaptability and project ownership.<br><br>
+          <b>Key Responsibilities:</b><br>
+          • Designed and developed static and dynamic websites using HTML, CSS, and JavaScript.<br>
+    
+          • Coordinated directly with business owners to understand their branding and content needs.<br>
+    
+          • Supported debugging and fixing layout or functionality issues across devices.<br>
+    
+          • Optimized loading speed and on-page SEO for better visibility.<br>
+    
+          • Delivered and deployed projects using GitHub Pages and      Panel hosting.<br>
+        </p>
+      </div>
+    <div class="about-exp">
+      <div class="about-exp-item">
+      <div class="about-exp-item-header">
+        <div>
+          <h5>Front-End Developer Intern</h5>
+          <h6>TechLabs Indonesia – Internship</h6>
+          <p>(July 2020 – December 2020)</p>
+        </div>
+        <button class="btn button" onclick="toggleDetail(event)">More Info</button>
+      </div>
+      <p class="about-exp-item-detail">As a Front-End Developer Intern at TechLabs Indonesia, I contributed to the development of internal tools and user-facing interfaces, focusing on responsiveness and usability. This role allowed me to apply foundational front-end skills in real projects while collaborating with cross-functional teams. I gained practical experience in writing clean code, debugging issues, and implementing UI enhancements in a fast-paced environment. <br><br>
+        <b>Key Responsibilities:</b><br>
+        • Assisted in building reusable UI components with vanilla JavaScript.<br>
+
+        • Collaborated with designers to implement responsive layouts and styling.<br>
+
+        • Supported debugging and fixing layout or functionality issues across devices.<br>
+
+        • Participated in code reviews and received feedback for skill development.<br>
+
+        • Gained hands-on experience in version control using Git.<br>
+
+        • Contributed to internal documentation and development guides.
+      </p>
+    </div>
+  <div class="about-exp">
+    <div class="about-exp-item">
+    <div class="about-exp-item-header">
+      <div>
+        <h5> Junior Front-End Developer </h5>
+        <h6> Digital Kreatif Studio – Freelance </h6>
+        <p>(August 2019 – June 2020)</p>
+      </div>
+      <button class="btn button" onclick="toggleDetail(event)" >More Info</button>
+    </div>
+    <p class="about-exp-item-detail">As a freelance Junior Front-End Developer at Digital Kreatif Studio, I independently delivered responsive websites for various small business clients. I worked directly with clients to gather requirements, design UI solutions, and build functional web pages aligned with brand identity. This role strengthened my ability to manage projects end-to-end, from planning and coding to deployment and client feedback.<br><br>
+      <b>Key Responsibilities:</b><br>
+      • Developed landing pages and company profile websites for small businesses.<br>
+      • Ensured responsive design and optimized performance across devices.<br>
+      • Translated client requirements into functional, user-friendly interfaces.<br>
+      • Added animations and interactive elements for improved UX.<br>
+      • Managed source control and deployment using GitHub and FTP.<br>
+    </p>
+  </div>
+  <div class="about-exp">
+    <div class="about-exp-item">
+    <div class="about-exp-item-header">
+      <div>
+        <h5>UI Developer Intern</h5>
+        <h6>Kreasi Teknologi Nusantara – Internship</h6>
+        <p>(February 2019 – July 2019)</p>
+      </div>
+      <button class="btn button" onclick="toggleDetail(event)">More Info</button>
+    </div>
+    <p class="about-exp-item-detail">As a UI Developer Intern, I supported the front-end engineering team in enhancing internal dashboards and user interfaces for company tools. My responsibilities included translating design mockups into interactive, reusable components and contributing to cross-browser testing and responsiveness. This internship exposed me to agile workflows, daily team collaboration, and hands-on experience with version control systems and front-end design systems in a real-world environment.<br><br>
+      <b>Key Responsibilities:</b><br>
+      • Assisted in converting UI designs into reusable components using Bootstrap.<br>
+
+      • Participated in sprint planning, stand-up meetings, and QA testing.<br>
+
+      • Performed basic debugging and style fixes across different screen siaszes.<br>
+
+      • Maintained documentation for internal front-end libraries.<br>
+
+      • Learned the workflow of Git version control in a team setting.<br>
+    </p>
+  </div>
+  </section>
+    <section id="work" class="work container">
+      <div class="row d-flex align-items-center gap-5">
+        <div class="col-12 col-md-5">
+
+          <p>I’ve developed a range of front-end projects—from business sites to dashboards and e-commerce platforms—focusing on clean architecture, responsive design, and user-centric functionality. The projects below highlight my technical skills and attention to detail in delivering modern web solutions.</p>
+          
+          <div>
+            <h5>1. Portfolio Website </h5>
+            <h6> React, Tailwind CSS – 2024 </h6>
+            <p>Personal website to showcase my experience, projects, and contact info. Fully responsive with modern UI, smooth animations, and accessible design.</p>
+            <div class="project-links">
+              🔧<b><a href="https://github.com/yourusername/project-name" target="_blank">GitHub</a></b>
+              &nbsp;
+              🌐<b><a href="https://yourdomain.com" target="_blank">Live Demo</a></b>
+            </div>
+          </div><br>
+          <div>
+            <h5>  2. Mini E-Commerce UI </h5>
+            <h6>  Next.js, Tailwind CSS, Zustand – 2023</h6>
+            <p>Developed a mock e-commerce front-end with product listings, filtering by category, cart functionality, and dynamic routing. Designed for performance and responsiveness with reusable UI components.</p>
+            <div class="project-links">
+              🔧<b><a href="https://github.com/yourusername/project-name" target="_blank">GitHub</a></b>
+              &nbsp;
+              🌐<b><a href="https://yourdomain.com" target="_blank">Live Demo</a></b>
+            </div>
+          </div>
+          <br>
+          <div>
+            <h5>  3. Task Manager App </h5>
+            <h6> React, JavaScript, LocalStorage – 2022 </h6>
+            <p>A simple productivity app that allows users to add, edit, and delete tasks. Tasks persist in the browser using localStorage. Features include task filtering by status and clean mobile-friendly layout.</p>
+            <div class="project-links">
+              🔧<b><a href="https://github.com/yourusername/project-name" target="_blank">GitHub</a></b>
+              &nbsp;
+              🌐<b><a href="https://yourdomain.com" target="_blank">Live Demo</a></b>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 work-img">
+          <div id="work-1" class="work-img-item">
+            <img src="Images/work-1.png" alt="work 1" >
+          </div>
+          <div id="work-2" class="work-img-item">
+            <img src="Images/work-2.png" alt="work 2" >
+          </div>
+          <div id="work-3" class="work-img-item">
+            <img src="Images/work-3.png" alt="work 3" >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact container">
+      <div class="row d-flex align-items-center gap-5">
+        <div class="col-12 col-lg-6">
+          <div class="max-w-xl mb-8 space-y-4 text-base text-gray-700">
+            <p>
+              I’m currently open to full-time roles, freelance projects, and exciting collaboration opportunities. Whether you have a question, a potential project in mind, or just want to connect — feel free to reach out via email, social media, or the contact form.
+            </p>
+            <p>
+              Let’s build something meaningful together — I usually reply within 24 hours.
+            </p>
+            <p>
+              You can also email me directly at
+              <b><a href="mailto:rafianto@email.com" class="text-blue-500 underline">rafianto@email.com</a></b>
+            </p>
+            <p class="text-sm text-gray-500">
+              <b>📍 Based in Indonesia — available worldwide 🌎</b>
+            </p>
+          </div>
+
+          <div class="row"> 
+            <div class="col d-flex align-items-center">
+              <img class="w-25" src="Images/Facebook.svg" alt="facebook icon">
+              <a href="https://facebook.com/Rafianto" target="_blank" class=" mb-0 ms-2 flex items-center gap-2 hover:underline">
+               Rafianto
+               </a>
+            </div>
+            <div class="col d-flex align-items-center">
+              <img src="Images/Instagram.svg" alt="Instagram icon">
+              <a href="https://facebook.com/Rafianto" target="_blank" class=" mb-0 ms-2 flex items-center gap-2 hover:underline">
+                @Rafianto.A.S
+                </a>
+            </div>
+            <div class="col d-flex align-items-center">
+              <img src="Images/Twitter.svg" alt="twitter icon">
+              <a href="https://facebook.com/Rafianto" target="_blank" class=" mb-0 ms-2 flex items-center gap-2 hover:underline">
+                @Rafianto_AS
+                </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5">
+          <form class="contact-form" onsubmit="onFormSubmit(event)">
+            <h2 class="text-xl font-semibold mb-2">📬 Let’s Work Together</h2>
+             <p class="text-sm text-gray-600 mb-4">
+              Send me a message and I’ll get back to you as soon as I can.
+            </p>
+            <div class="mb-3">
+              <label for="inp_email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="inp_email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="inp_subject" class="form-label"> Subject </label>
+              <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="inp_message" class="form-label"> Message</label>
+              <input type="text" class="form-control" id="inp_message" placeholder="Your Message" required>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <button type="submit" class="btn button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div> 
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>   
+</body>
+</html>
